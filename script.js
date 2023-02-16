@@ -13,7 +13,7 @@ function myfunction(e) {
   let nameValue = nameELement.value;
   let yearValue = yearElement.value;
 
-  if (name && year) 
+  if (nameValue && yearValue) 
   {
     h3Value += "?name=" + nameValue + "&year=" + year;
   } else if (nameValue && !yearValue) {

@@ -15,7 +15,7 @@ function myfunction(e) {
 
   if (nameValue && yearValue) 
   {
-    h3Value += "?name=" + nameValue + "&year=" + year;
+    h3Value += "?name=" + nameValue + "&year=" + yearValue;
   } else if (nameValue && !yearValue) {
     h3Value += "?name=" + nameValue;
   } else if (!nameValue && yearValue) {

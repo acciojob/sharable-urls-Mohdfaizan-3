@@ -10,8 +10,8 @@ form.addEventListener('submit',myfunction);
 function myfunction(e) {
 	e.preventDefault();
    let h3Value = "https://localhost:8080/";
-  let nameValue = nameELement.value;
-  let yearValue = yearElement.value;
+  let nameValue = name.value;
+  let yearValue = year.value;
 
   if (nameValue && yearValue) 
   {
